@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TEST A4 – Accès total</title>
+</head>
+<body>
+  <h1>🧪 TEST A4 – Tous moteurs autorisés</h1>
+
+  <h2>🔍 Objectif du test</h2>
+  <p>Ce test vise à valider que SearchGPT peut détecter le contenu d’une page web librement accessible, sans restriction robots.txt ou meta. La page contient une phrase absurde unique, totalement inédite sur le web.</p>
+
+  <h2>🧾 Phrase absurde à détecter</h2>
+  <p><strong>La pastèque quantique de Saint-Nazaire fait du beatbox holographique pendant les orages de données.</strong></p>
+
+  <h2>📁 Configuration robots.txt</h2>
+  <pre>
+User-agent: *
+Allow: /
+  </pre>
+
+  <h2>📌 Résultat attendu</h2>
+  <p>Cette phrase doit être détectée sans problème par SearchGPT, quel que soit le moteur utilisé.</p>
+</body>
+</html>
